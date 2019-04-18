@@ -10,6 +10,7 @@ from fastai import *
 from fastai.vision import *
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=14-kzgw4Vw2vI07I9R6yqQ8X3AWPt3FJG'
+
 export_file_name = 'export.pkl'
 
 classes = ['tvbrasil','band','redetv','record','globo','sbt']
