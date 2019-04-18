@@ -9,7 +9,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=13Nxml5y0VVrn7J8GjTuxZDO1WwR2YslX'
+export_file_url = 'https://drive.google.com/uc?export=download&id=153usHTwuEUpNP5OfN85shCCIn66-Lwoc'
 export_file_name = 'export.pkl'
 
 classes = ['macbook', 'notmacbook']
