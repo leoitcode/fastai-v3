@@ -9,11 +9,44 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1x87K-wtGGNjxr1CdIpicVVe14UBn8y7L'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1xO-YLxg8Q3btu0t7qItpJ7eQRYE_rMq0'
 
 export_file_name = 'export.pkl'
 
-classes = ['tvbrasil','band','redetv','record','globo','sbt']
+classes = ['accessory',
+'animal',
+'ant',
+'appliance',
+'assassin',
+'bed-bug',
+'bee',
+'beetle',
+'butterfly',
+'catterpillar',
+'cicadomorpha-bug',
+'cockroach',
+'crickets',
+'dragonfly',
+'electronic',
+'flies',
+'food',
+'furniture',
+'indoor',
+'kitchen',
+'lacewing',
+'leaf-footed-squash-bug',
+'outdoor',
+'person',
+'plant-bug',
+'planthopper-bug',
+'seed-bug',
+'sports',
+'stink-shield-bug',
+'termites',
+'thrips',
+'vehicle',
+'wasp']
+
 path = Path(__file__).parent
 
 app = Starlette()
